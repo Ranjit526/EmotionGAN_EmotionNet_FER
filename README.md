@@ -1,6 +1,9 @@
 
 [![DOI](https://zenodo.org/badge/1466246574.svg)](https://doi.org/10.5281/zenodo.24412958)
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Ranjit526/EmotionGAN_EmotionNet_FERac)
+
+
 # EmotionGAN + EmotionNet-CNN: Facial Expression Recognition
 
 A deep learning framework for facial expression recognition using class-specific Generative Adversarial Networks (GANs) and a residual Convolutional Neural Network (CNN).
