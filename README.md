@@ -1,4 +1,4 @@
-[github.com/Ranjit526/EmotionGAN_EmotionNet_FER/blob/main/README.md](https://github.com/Ranjit526/EmotionGAN_EmotionNet_FER/blob/main/README.md)
+(https://github.com/Ranjit526/EmotionGAN_EmotionNet_FER/blob/main/README.md)
 [![DOI](https://zenodo.org/badge/1466246574.svg)](https://doi.org/10.5281/zenodo.24412958)
 
 # EmotionGAN + EmotionNet-CNN: Facial Expression Recognition
