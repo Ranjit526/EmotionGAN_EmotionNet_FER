@@ -1,0 +1,10 @@
+# Python 3.10–3.12 recommended (Google Colab supported).
+# For an NVIDIA GPU, install the appropriate TensorFlow/CUDA combination.
+tensorflow>=2.16,<2.21
+numpy>=1.26,<3.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3,<2.0
+matplotlib>=3.7,<4.0
+scipy>=1.11,<2.0
+PyYAML>=6.0,<7.0
+Pillow>=10.0,<13.0

@@ -1,0 +1,45 @@
+# Development check only: tiny randomly generated DATA. No accuracy claims.
+seed: 42
+deterministic: false
+dataset:
+  protocol: subset
+  test_fraction: 0.20
+  validation_fraction_of_train: 0.10
+  deduplicate_subset: true
+  subset_counts:
+    Angry: 18
+    Disgust: 10
+    Fear: 18
+    Happy: 24
+    Sad: 18
+    Surprise: 16
+    Neutral: 18
+gan:
+  epochs: 1
+  batch_size: 8
+  latent_dim: 100
+  learning_rate: 0.0001
+  beta_1: 0.5
+  beta_2: 0.999
+  checkpoint_every: 1
+  generation_batch_size: 16
+cnn:
+  epochs: 1
+  batch_size: 8
+  learning_rate: 0.0001
+  beta_1: 0.9
+  beta_2: 0.999
+  dropout: 0.4
+  lr_factor: 0.5
+  lr_patience: 3
+  augmentation:
+    max_rotation_deg: 10.0
+    max_translate_fraction: 0.08
+    max_shear_deg: 8.0
+    min_zoom: 0.90
+    max_zoom: 1.10
+    flip_probability: 0.5
+reports:
+  dpi: 150
+  image_diagnostics_limit: 32
+  write_example_faces: false

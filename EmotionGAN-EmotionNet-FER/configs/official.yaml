@@ -1,0 +1,37 @@
+# Official FER-2013 partitions. PublicTest=validation; PrivateTest=test.
+seed: 42
+deterministic: true
+dataset:
+  protocol: official
+  deduplicate_subset: false
+  validation_fraction_of_train: 0.10
+  test_fraction: 0.20
+gan:
+  epochs: 100
+  batch_size: 32
+  latent_dim: 100
+  learning_rate: 0.0001
+  beta_1: 0.5
+  beta_2: 0.999
+  checkpoint_every: 5
+  generation_batch_size: 128
+cnn:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.0001
+  beta_1: 0.9
+  beta_2: 0.999
+  dropout: 0.4
+  lr_factor: 0.5
+  lr_patience: 3
+  augmentation:
+    max_rotation_deg: 10.0
+    max_translate_fraction: 0.08
+    max_shear_deg: 8.0
+    min_zoom: 0.90
+    max_zoom: 1.10
+    flip_probability: 0.5
+reports:
+  dpi: 600
+  image_diagnostics_limit: 256
+  write_example_faces: false
