@@ -1,5 +1,8 @@
 # EmotionGAN + EmotionNet-CNN: Facial Expression Recognition
 
+
+[![DOI](https://zenodo.org/badge/1466246574.svg)](https://doi.org/10.5281/zenodo.24412958)
+
 A deep learning framework for facial expression recognition using class-specific Generative Adversarial Networks (GANs) and a residual Convolutional Neural Network (CNN).
 
 The framework uses GAN-based data augmentation to improve class balance, followed by EmotionNet-CNN for facial expression classification using 48 × 48 grayscale facial images from the FER-2013 dataset.
